@@ -1,0 +1,353 @@
+@media screen and (min-width : 1000px) {
+
+	ul.courses {
+		margin: 0 -15px 0 -15px;
+	}
+
+	ul.courses li {
+		width: 48%;
+    	float: left;
+    	margin-left: 15px;
+    	padding: 20px 25px;
+	}
+
+	ul.questionsList {
+		margin: 0 -15px 0 -15px;
+	}
+
+	ul.questionsList li {
+		width: 48%;
+    	float: left;
+    	margin-left: 15px;
+	}
+
+
+
+
+
+}
+
+/*@media screen and (min-width : 1000px) and (max-width : 1100px) {
+
+}*/
+
+@media screen and (min-width : 768px) {
+	.timer .far, .markReview .far, .incomplete .fa-times-circle {
+		font-size: 40px;
+	}
+
+	.timer, .markReview, .incomplete {
+		font-size: 16px;
+	}
+
+	.timer span, .markReview span, .incomplete span  {
+		font-size: 15px;
+	}
+	.iconView {
+	    margin-right: 15px;
+	   
+	}
+
+	.signIn, .backNext {
+		font-size: 18px;
+		padding: .6rem 1.75rem;
+	}
+
+	.btn1 {
+		font-size: 18px;
+		margin-left: 55px;
+	}
+
+	.btn2 {
+		font-size: 18px;
+	}
+
+	.labelName {
+		font-size: 20px;
+	}
+
+	.search a, .logout a {
+		font-size: 20px;
+	}
+
+	.timer .far, .markReview .far, .incomplete .fa-times-circle {
+		font-size: 40px;
+	}
+
+	.timer, .markReview, .incomplete {
+		font-size: 16px;
+	}
+
+	.timer span, .markReview span, .incomplete span  {
+		font-size: 15px;
+	}
+	.iconView {
+	    margin-right: 15px;
+	   
+	}
+
+	.textSummary {
+		font-size: 16px;
+	}
+
+	.textSummary span{
+		font-size: 15px;
+	} 
+
+	.remarks {
+		font-size: 16px;
+	}
+
+	.remarks span {
+		font-size: 28px;
+		margin-left: 20px;
+	}	
+
+	.coursesName {
+		font-size: 16px;
+	}
+
+	.serialNumber {
+		font-size: 26px;
+		width: 45px;
+	}
+
+	.coursesName span {
+		font-size: 18px;
+	}
+
+	.questions {
+		font-size: 18px;
+	}
+
+	.qtitle span {
+		font-size: 18px;
+	}
+
+	.qNumber, .title-q, .questionTxt {
+		font-size: 16px;
+	}
+
+	.filed {
+		height: 50px;
+		font-size: 16px;
+	}
+
+	.lablefiled {
+		height: 50px;
+		font-size: 18px;
+	}
+
+	.lablefiled::after {
+		top: 17px;
+	}
+
+	h3 {
+		font-size: 24px;
+		padding: 0;
+	}
+
+	p {
+	    font-size: 18px;
+	}
+
+	ul.instruct li {
+		font-size: 15px;
+	}
+
+	.introLogo img {
+		max-width: 55%;
+	}
+
+	.shortAns {
+		/*margin: 0 -5px 0 -5px;*/
+	}
+
+	.shortAns > input[type=radio] + label.btn {
+		width: 48%;
+		margin-left: 5px;
+	}
+
+	.ansImgages img {
+	    text-align: center;
+	    display: block;
+	    margin: 0 auto;
+	}
+
+	.hamburgerMenu {
+		padding-top: 2px;
+	}
+
+	.hamburgerMenu a {
+		font-size: 20px;
+	}
+
+	.insideLogo {
+	    margin: 0 5px;
+	}
+
+}
+
+
+
+@media screen and (min-width : 768px) and (max-width : 1000px) {
+
+}
+
+@media screen and (min-width : 320px) and (max-width : 767px) {
+
+}
+
+@media screen and (min-width : 480px) and (max-width : 767px) {
+	.timer .far, .markReview .far, .incomplete .fa-times-circle {
+		font-size: 35px;
+	}
+
+	.timer, .markReview, .incomplete {
+		font-size: 15px;
+	}
+
+	.timer span, .markReview span, .incomplete span  {
+		font-size: 14px;
+	}
+	.iconView {
+	    margin-right: 5px;	   
+	}
+
+	.btn2 {
+	    font-size: 14px;
+	}	
+
+	.textareaField {
+	    border: 1px solid #ced4da;
+	    font-size: 16px;
+	    min-height: 100px;
+	}
+
+
+}
+
+@media screen and (min-width : 320px) and (max-width : 479px) {
+
+	.noPaddingLeft {
+		padding-left: 0px;
+	}
+
+	.noPadding {
+		padding: 0px;
+	}
+
+	.noPaddingRight {
+		padding-right: 0px;
+	}
+
+	.iconView {
+	    margin-right: 5px;
+	    padding-bottom: 10px;
+	}
+
+	.backNext {
+	    color: #6c4e02;
+	    font-size: 14px;
+	    font-weight: 500;
+	    background: #f8b813;
+	    padding: .5rem .75rem;
+	    -webkit-border-radius: 15px;
+	    -moz-border-radius: 15px;
+	    -ms-border-radius: 15px;
+	    -o-border-radius: 15px;
+	    border-radius: 15px;
+	    text-transform: uppercase;
+	    margin-top: 20px;
+	}
+
+	#exampleModal .modal-body span {
+		font-size: 20px;
+	}
+
+	.textareaField {
+	    border: 1px solid #ced4da;
+	    font-size: 16px;
+	    min-height: 100px;
+	}
+
+	.fiexdW > input[type=radio] + label.btn {
+	    margin-left: 3px;
+	}
+
+	h3 {
+		padding-top: 0px;
+		font-size: 16px;
+		padding-bottom: 5px;
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 17px;
+		margin-bottom: 0px
+	}
+
+	.questions {
+		font-size: 14px;
+		margin-bottom: 3px;
+	}
+
+	ul.instruct {
+	    margin-top: 5px;
+	}
+
+	ul.instruct li {
+		padding: 1px 0 1px 20px;
+		font-size: 13px;
+	}
+
+	input[type=radio] + label.btn {
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 14px;
+	}
+
+	.marginTop0 {
+		margin-top: 0px !important;
+	}
+	.marginTop5 {
+		margin-top: 5px !important;
+	}
+
+	ul.instruct li:before {
+		font-size: 13px;
+	}
+
+	.padding5 {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	.paddingTop60 {
+		padding-top: 60px !important;
+	}
+
+	.labelName {
+		font-size: 14px;
+		padding: 5px 0 0 6px;
+	}
+	.info {
+		width: 18px;
+	}
+	.info a {
+		font-size: 16px;
+	}
+
+	.leftPadding320 {
+		padding-left: 0px !important;
+	}	 
+
+	.logout {
+		margin-left: 2px;		
+	}
+	
+}
+
+@media screen and (min-width : 300px) and (max-width : 470px) {
+
+}
